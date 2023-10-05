@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     char input;
-  cout << "ENTER AN OPERATOR ";
+  cout << "ENTER AN OPERATOR : ";
   cin >> input;
 
   if (input == '+' || input == '-' || input == '%' || input == '*' || input == '/') {
